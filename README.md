@@ -18,8 +18,8 @@ Parser of vacancies from HeadHunter was written
 ___
 **How to run a project:**
 
-1. Clone a project from GiHub into your own project
-2. Create a virtual environment (.venv)
+1. Clone a project from GiHub into your own project ```git clone https://github.com/mor1nch/HeadHunterParser.git```
+2. Create a virtual environment (.venv) ```python -m venv .venv```
 3. Write to terminal
    ```pip install -r requirements.txt```
 4. Create an "**.env**" file in the project root directory and add your database connection settings
@@ -34,7 +34,7 @@ Example:
  DB_PORT=your_port
 ```
 
-5. Run "main.py" file
+5. Run "main.py" file ```python main.py```
 
 ___
 _developed by [mor1nch](https://github.com/mor1nch)_
